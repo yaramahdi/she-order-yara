@@ -3,6 +3,7 @@ import { requireUnlocked } from "@/lib/auth";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 import { formatDate, formatMoney } from "@/lib/format";
 import type { OrderSummary } from "@/lib/types";
+import FinancialsSummary from "@/components/orders/financials-summary";
 
 export default async function OrdersPage() {
   await requireUnlocked();
@@ -34,6 +35,8 @@ export default async function OrdersPage() {
           </Link>
         </div>
       </section>
+
+      <FinancialsSummary orders={orders} />
 
       {orders.length === 0 ? (
         <div className="card" style={{ padding: 40, textAlign: "center" }}>
