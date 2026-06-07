@@ -10,17 +10,17 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
-    "next": "15.3.3",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.9.0",
     "@types/node": "^22.14.1",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
     "eslint": "^9.25.0",
-    "eslint-config-next": "15.3.3",
+    "eslint-config-next": "latest",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"
   }
